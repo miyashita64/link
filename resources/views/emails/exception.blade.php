@@ -1,0 +1,3 @@
+@component
+    {{ $message }}
+@endcomponent

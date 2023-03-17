@@ -1,0 +1,31 @@
+:root{
+    --headerHeight: 50px;
+    --headerHeight80pxVer: 80px;
+    /* link original color */
+    --linkLightBlue: #9dc3e6;
+    --linkDarkBlue: #007fbf;
+    --linkGreen: #548235;
+    --linkBlack: #3c3c3c;
+    --linkWhite: #fff;
+}
+
+*{
+    -ms-overflow-style: none;   /* IE, Edge 対応 */
+    scrollbar-width: none;      /* Firefox 対応 */
+}
+*::-webkit-scrollbar{
+    display:none;               /* Chrome, Safari 対応 */
+}
+*{
+    color: var(--linkblack);
+    text-decoration: none;
+}
+*:hover{
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+img{
+    padding: 3px;
+}
