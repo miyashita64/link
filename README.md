@@ -16,14 +16,12 @@
 以下のコマンドで、既存のプロジェクトをクローンする
 
 ```bash
-$ git clone BitbucketのページでコピーできるURL
-
-$ git clone https://Taki_Miyata@bitbucket.org/Taki_Miyata/link.git
+$ git clone https://github.com/miyashita64/link.git
 ```
 
 設定ファイル(.env)を作成
 ```bash
-$ cd link/link
+$ cd link
 $ cp .env.example .env
 ```
 
