@@ -30,15 +30,15 @@ DB_DATABASE=データベース名
 DB_USERNAME=mysqlのユーザ名
 DB_PASSWORD=mysqlのパスワード
 
-アプリケーションキーを生成する
-```bash
-$ php artisan key:generate
-```
-
 パッケージをインストールする
 ```bash
 $ composer update
 $ composer install
+```
+
+アプリケーションキーを生成する
+```bash
+$ php artisan key:generate
 ```
 
 データベースにテーブルを作成する
